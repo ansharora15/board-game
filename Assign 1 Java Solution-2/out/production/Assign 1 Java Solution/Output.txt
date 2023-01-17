@@ -1,0 +1,180 @@
+//OUTPUT-
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               JediRedFF       -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+create 3 6 fast
+Input a name for the new piece:
+Denni
+Input a colour for the new piece:
+Black
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               JediRedFF       -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               DenniBlackF     -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+create 1 3 slow flexible
+Input a name for the new piece:
+mona
+Input a colour for the new piece:
+Green
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+monaGreenS      -               JediRedFF       -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               DenniBlackF     -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+move 7 7
+Error: no piece at (7,7)
+Enter a command (type help for details):
+move 3 3 right 2
+Piece at (3,3) moved right by 2 spaces
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+monaGreenS      -               -               -               JediRedFF       -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               DenniBlackF     -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+move 5 5
+Error: no piece at (5,5)
+Enter a command (type help for details):
+move 3 3 up 1
+Error: no piece at (3, 3)
+Enter a command (type help for details):
+create 1 3 slow flexible
+Input a name for the new piece:
+Max
+Input a colour for the new piece:
+Pink
+Error: cannot be added to the board
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+monaGreenS      -               -               -               JediRedFF       -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               DenniBlackF     -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+create 4 3 slow flexible
+Input a name for the new piece:
+Max
+Input a colour for the new piece:
+Pink
+Enter a command (type help for details):
+print
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+monaGreenS      -               -               MaxPinkS        JediRedFF       -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               DenniBlackF     -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+-               -               -               -               -               -               -               -
+
+Enter a command (type help for details):
+exit
+Done.
